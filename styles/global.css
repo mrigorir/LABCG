@@ -3,7 +3,8 @@
 :root {
   --white: #fff;
   --red: #b20823;
-  
+  --black: #000;
+  --medBlack: #3a3b3c;
 }
 
 
@@ -15,11 +16,16 @@
 }
 
 .titleInstagram {
-  writing-mode: vertical-lr;
+  /*writing-mode: vertical-lr;
   text-orientation: upright;
   letter-spacing: .4rem;
-  font-size: 28px;
-  margin-top: 50px;
+  font-size: 28px;*/
+  /*margin-top: 50px;*/
+  letter-spacing: .4rem;
+  transform: rotate(-90deg);
+  font-size: 1.8em;
+  color: #FFF;
+  text-transform: uppercase;
 }
 
 .button-more {

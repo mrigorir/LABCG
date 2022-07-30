@@ -1,0 +1,115 @@
+.homeImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('../imgs/imgIndex.jpg');
+  width: 100%;
+  height: 100vh;
+}
+
+.brand {
+  width: 250px;
+  height: 80px;
+}
+
+.redButton {
+  background-color: var(--red);
+  border-radius: 0;
+}
+
+.titleContainer {
+  top: 300px;
+  left: 100px;
+}
+
+.title {
+  font-size: 10rem;
+  font-weight: lighter;
+}
+
+.title2 {
+  margin-top: -100px!important;
+}
+
+.letterB {
+  border-color: var(--red)!important;
+}
+
+.characters {
+  margin-left: -45px;
+}
+
+@media (max-width: 375px) {
+  .brand {
+    width: 250px;
+    margin-left: -30px!important;
+  }
+  
+  .titleContainer {
+    top: 200px;
+    left: 50px;
+  }
+  
+  .title {
+    font-size: 5rem;
+  }
+
+  .title2 {
+    margin-top: -50px!important;
+  }
+
+  .characters {
+    margin-left: -25px!important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .title {
+    font-size: 8rem;
+  }
+
+  .title2 {
+    margin-top: -70px!important;
+  }
+
+  .characters {
+    margin-left: -35px!important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.4)!important;
+  }
+
+  .nav-link {
+    color: var(--white)!important;
+  }
+
+  .navbar-toggler {
+    background-color: var(--medBlack);
+  }
+
+  .navbar-nav,
+  .instagramButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+  .nav-link {
+    padding-right: 20px!important;
+  }
+
+  .navbar-nav {
+    margin-left: -40px!important;
+  }
+
+  .titleContainer {
+    top: 500px;
+    left: 100px;
+  }
+}

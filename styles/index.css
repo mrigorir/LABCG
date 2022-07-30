@@ -10,10 +10,15 @@
 .homeText {
   width: 500px;
   margin-top: 200px;
+  margin-left: -180px!important;
+}
+
+.titleInstagram {
+  margin-left: -450px!important;
 }
 
 .homeTextTitle {
-  font-size: 300px;
+  font-size: 20rem;
 }
 
 .homeTextSubTitle,
@@ -34,6 +39,19 @@
   margin-top: 100px;
 }
 
+.aver {
+  background-color: var(--red);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+i.fa-right-long {
+  font-size: 16px!important;
+  top: 9px;
+}
+
 /*.plus-icon {
   border-radius: 50%;
   width: 20px;
@@ -49,14 +67,67 @@
   letter-spacing: .5rem;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 375px)  {
   .titleInstagram {
-    margin-left: 300px;
+    margin-left: -100px!important;
+    font-size: 20px;
   }
 
   .homeTextTitle,
   .homeTextSubTitle,
   .homeTextSubTitle2 {
-    margin-left: 70px;
+    margin-left: 50px;
+  }
+
+  .homeTextTitle {
+    font-size: 8rem;
+  }
+
+  .homeTextSubTitle,
+  .homeTextSubTitle2 {
+    font-size: 35px;
+  }
+
+  .homeTextSubTitle2 {
+    margin-top: -25px;
+  }
+
+  .homeTextSubTitle {
+    margin-top: -40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .titleInstagram {
+    margin-left: 100px!important;
+  }
+
+  .homeTextTitle,
+  .homeTextSubTitle,
+  .homeTextSubTitle2 {
+    margin-left: 50px;
+  }
+
+  .homeTextTitle {
+    font-size: 15rem;
+  }
+
+  .homeTextSubTitle,
+  .homeTextSubTitle2 {
+    font-size: 60px;
+  }
+
+  .homeTextSubTitle2 {
+    margin-top: -25px;
+  }
+
+  .homeTextSubTitle {
+    margin-top: -60px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+  .titleInstagram {
+    margin-left: 0px!important;
   }
 }

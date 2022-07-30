@@ -1,15 +1,19 @@
 .sub-title-2 {
-  margin-top: -35px;
+  margin-top: -30px;
 }
 
 .main-title {
-  font-size: 8rem;
+  font-size: 8rem!important;
 }
 
 .button-more {
  border-radius: 0;
  padding: 5px 20px 0 30px;
  margin-top: 30px;
+}
+
+.titleInstagram {
+  margin-left: -120px;
 }
 
 @media (max-width: 360px) {
@@ -28,9 +32,39 @@
   }
 }
 
+@media (max-width: 360px) {
+  .textContainer {
+    margin-top: -350px;
+  }
+
+  .titleInstagram {
+    position: absolute!important;
+    top: 280px;
+    left: -85px;
+    font-size: 10px!important;
+  }
+  .main-title {
+    font-size: 2.3rem!important;
+  }
+
+  .sub-title-1,
+  .sub-title-2 {
+    font-size: 16px!important;
+  }
+
+  .sub-title-2 {
+    margin-top: -10px;
+  }
+
+  .linkButton {
+    font-size: 15px;
+  }
+}
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .main-title {
-    font-size: 3.5rem;
+    font-size: 3.5rem!important;
   }
 
   .sub-title-1,
@@ -47,11 +81,11 @@
 @media (min-width: 1024px) and (max-width: 1500px) {
   .titleInstagram {
     font-size: 30px!important;
-    margin-right: 10px!important;
+    margin-left: -170px!important;
   }
 
   .main-title {
-    font-size: 6.5rem;
+    font-size: 6.5rem!important;
   }
 
   .sub-title-1,

@@ -10,6 +10,7 @@
 .left-title {
   font-size: 120px;
   font-weight: bolder!important;
+  margin-left: 150px!important;
 }
 
 .moved {
@@ -18,6 +19,8 @@
 
 .right-section {
   margin-top: 170px;
+  width: 65%;
+  margin-left: -100px;
 }
 
 .right-text {
@@ -26,8 +29,8 @@
 }
 
 .titleInstagram {
-  font-size: 20px!important;
-  margin-top: 130px;
+  font-size: 25px!important;
+  margin-top: 290px;
 }
 
 .aver {
@@ -40,46 +43,62 @@
 
 i.fa-right-long {
   font-size: 16px!important;
-  top: 478px;
+  top: 505px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .left-title {
-    font-size: 80px;
+    font-size: 60px;
     margin-left: 20px!important;
   }
 
   .right-section {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: -130px;
+  }
+
+  .right-text {
+    font-size: 17px!important;
   }
 
   i.fa-right-long {
     font-size: 16px!important;
-    top: 705px;
+    top: 927px;
+  }
+
+  .buttonContainer {
+    margin-top: 20px!important;
+  }
+
+  .titleInstagram {
+    font-size: 25px!important;
+    margin-top: 450px!important;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1500px) {
+@media (min-width: 1025px) and (max-width: 1500px) {
   .left-title {
     font-size: 80px;
     margin-left: 20px!important;
   }
 
   .right-section {
-    margin-top: 170px;
+    margin-top: 60px;
+    margin-right: 50px;
   }
 
   .right-text {
-    font-size: 25px;
+    font-size: 30px!important;
   }
 
   i.fa-right-long {
     font-size: 16px!important;
-    top: 1010px;
+    top: 1303px;
   }
 
   .titleInstagram {
     font-size: 30px!important;
-    margin-top: 250px;
+    margin-top: 650px!important;
   }
 }
