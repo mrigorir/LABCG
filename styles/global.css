@@ -5,14 +5,23 @@
   --red: #b20823;
   --black: #000;
   --medBlack: #3a3b3c;
+  --backColor: #060606;
 }
-
 
 * {
   margin: 0;
   padding: 0;
   color: var(--white);
   font-family: 'Josefin Sans', sans-serif;
+}
+
+html,
+body {
+  background-color: var(--black);
+}
+
+.nav-link {
+  color: var(--white)!important;
 }
 
 .titleInstagram {
