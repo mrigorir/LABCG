@@ -29,21 +29,27 @@
 }
 
 .titleContainer {
-  top: 300px;
+  top: 180px;
   left: 100px;
 }
 
 .title {
-  font-size: 10rem;
-  font-weight: lighter;
+  font-size: 9rem;
+  font-weight: light;
+}
+
+.alfonso-title {
+  margin-top: -80px;
 }
 
 .title2 {
   margin-top: -100px!important;
 }
 
-.letterB {
-  border-color: var(--red)!important;
+.letterO {
+  border-bottom: solid 3px var(--red)!important;
+  width: 13%;
+  margin: -60px 85%; 
 }
 
 .characters {
@@ -75,6 +81,10 @@
 
 .section3-main-title {
   font-size: 7rem!important;
+}
+
+.section3-sub-title-1 {
+  margin-bottom: 0px!important;
 }
 
 .section3-sub-title-1,
@@ -122,10 +132,22 @@
     top: 200px;
     left: 50px;
   }
+
+  .letterO {
+    margin-top: -30px!important;
+  }
   
   .title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
+
+  .title-mobile {
+    margin-bottom: -30px!important;
+  }
+
+    .alfonso-title {
+      margin-top: 0px!important;
+    }
 
   .title2 {
     margin-top: -50px!important;
@@ -192,7 +214,19 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .title {
-    font-size: 8rem;
+    font-size: 7rem;
+  }
+
+  .title-mobile {
+    margin-bottom: -40px;
+  }
+
+  .alfonso-title {
+    margin-top: 0px!important;
+  }
+
+  .letterO {
+    margin-top: -40px!important;
   }
 
   .title2 {
@@ -231,8 +265,12 @@
     font-size: 5rem!important;
   }
 
+  .section3-sub-title-1 {
+    margin-bottom: 0px!important;
+  }
+
   .section3-sub-title-2 {
-    margin-top: 0!important;
+    margin-top: -25px!important;
   }
 
   .fotos {
@@ -242,6 +280,10 @@
 }
 
 @media (max-width: 1024px) {
+  .title-mobile {
+    margin-bottom: -60px;
+  }
+
   .navbar {
     background-color: rgba(255, 255, 255, 0.4)!important;
   }
@@ -278,7 +320,7 @@
 
   .titleContainer {
     top: 500px;
-    left: 100px;
+    left: 170px;
   }
 
   .section2 {
@@ -301,8 +343,12 @@
     font-size: 6rem!important;
   }
 
+  .section3-sub-title-1 {
+    margin-bottom: 0px!important;
+  }
+
   .section3-sub-title-2 {
-    margin-top: 0!important;
+    margin-top: -25px!important;
   }
 
   .section3 {
@@ -311,5 +357,13 @@
 
   .fotos {
     margin-bottom: 30px;
+  }
+
+  .alfonso-title {
+    margin-top: 0px!important;
+  }
+
+  .letterO {
+    margin-top: -50px!important;
   }
 }
