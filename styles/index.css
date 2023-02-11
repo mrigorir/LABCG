@@ -170,6 +170,10 @@
     margin: 0 auto 50px auto;
   }
 
+  p.comm {
+    margin-top: 20px!important;
+  }
+
   .section3 {
     margin: 100px 0 0px 0!important;
   }
