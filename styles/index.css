@@ -29,7 +29,7 @@
 }
 
 .titleContainer {
-  top: 180px;
+  top: 80px;
   left: 100px;
 }
 
@@ -122,15 +122,25 @@
 }
 
 /* QUEIRIES */
-@media (max-width: 375px) {
+@media (max-width: 540px) {
   .brand {
     width: 250px;
     margin-left: -30px!important;
   }
   
-  .titleContainer {
-    top: 200px;
-    left: 50px;
+  .titleContainer#main-title {
+    top: 200px!important;
+  }
+
+  p.title-mobile,
+  p.alfonso-title,
+  p.title2 {
+    font-size: 60px!important;
+  }
+
+  p.alfonso-title,
+  p.title2 {
+    margin-top: -60px!important;
   }
 
   .letterO {
@@ -139,18 +149,6 @@
   
   .title {
     font-size: 4rem;
-  }
-
-  .title-mobile {
-    margin-bottom: -30px!important;
-  }
-
-    .alfonso-title {
-      margin-top: 0px!important;
-    }
-
-  .title2 {
-    margin-top: -50px!important;
   }
 
   .characters {
@@ -213,6 +211,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .titleContainer {
+    top: 250px!important
+  }
+
   .title {
     font-size: 7rem;
   }
@@ -280,9 +282,22 @@
 }
 
 @media (max-width: 1024px) {
-  .title-mobile {
-    margin-bottom: -60px;
+  .titleContainer {
+    top: 60px;
+    left: 50px!important;
   }
+
+  .title-mobile,
+  .alfonso-title,
+  .title2 {
+    font-size: 90px!important;
+  }
+
+  .alfonso-title,
+  .title2 {
+    padding-top: 10px!important;
+  }
+
 
   .navbar {
     background-color: rgba(255, 255, 255, 0.4)!important;
@@ -319,8 +334,22 @@
   }
 
   .titleContainer {
-    top: 500px;
-    left: 170px;
+    top: 60px;
+    left: 105px;
+  }
+
+  .title-mobile,
+  .alfonso-title,
+  .title2 {
+    font-size: 120px;
+  }
+
+  .title2 {
+    margin-top: -80px!important;
+  }
+
+  .title .alfonso-title {
+    margin-top: 0px!important;
   }
 
   .section2 {
@@ -357,10 +386,6 @@
 
   .fotos {
     margin-bottom: 30px;
-  }
-
-  .alfonso-title {
-    margin-top: 0px!important;
   }
 
   .letterO {
